@@ -1009,6 +1009,72 @@ gap: 20px;
     max-width: 100%;
     max-height: 80px;
 }
+.p30 {
+   
+    width: 100%;
+    position: relative;
+    height: 450px;
+    background-image: url('./mmmmm/Rectangle\ 1992.png');
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+}
+
+.p29 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.55);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+.p28 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.p27 {
+    color: #ffffff;
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 1.3;
+    margin-bottom: 15px;
+}
+
+.p26 {
+    color: #e0e0e0;
+    font-size: 15px;
+    line-height: 1.5;
+    margin-bottom: 25px;
+    max-width: 700px;
+}
+
+.p25 {
+    width: 30%;
+    background: linear-gradient(to right, #2b82cb, #1d6eb4);
+    color: #ffffff;
+    padding: 12px 30px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    transition: opacity 0.2s ease;
+    display: inline-block;
+    text-align: center;
+}
+
+.p25:hover {
+    opacity: 0.9;
+}
 @media (max-width: 500px) {
 
     .n5 {
@@ -1553,4 +1619,25 @@ gap: 20px;
     .p17 img {
         max-height: 65px;
     }
-}   
+    .p30 {
+        height: 400px;
+    }
+
+    .p27 {
+        font-size: 20px;
+    }
+
+    .p26 {
+        font-size: 13px;
+    }
+
+    .p27 br,
+    .p26 br {
+        display: none;
+    }
+
+    .p25 {
+        width: 80%;
+        padding: 10px 20px;
+    }
+}
