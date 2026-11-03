@@ -1022,8 +1022,6 @@ gap: 20px;
 
 .p29 {
     position: absolute;
-    top: 0;
-    left: 0;
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.55);
@@ -1044,8 +1042,6 @@ gap: 20px;
 .p27 {
     color: #ffffff;
     font-size: 32px;
-    font-weight: bold;
-    line-height: 1.3;
     margin-bottom: 15px;
 }
 
@@ -1054,7 +1050,6 @@ gap: 20px;
     font-size: 15px;
     line-height: 1.5;
     margin-bottom: 25px;
-    max-width: 700px;
 }
 
 .p25 {
@@ -1065,15 +1060,73 @@ gap: 20px;
     border-radius: 6px;
     text-decoration: none;
     font-size: 15px;
-    font-weight: bold;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
-    transition: opacity 0.2s ease;
     display: inline-block;
     text-align: center;
 }
 
-.p25:hover {
-    opacity: 0.9;
+.p41 {
+    width: 100%;
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 0 20px;
+    font-family: Arial, sans-serif;
+}
+
+.p40 {
+    color: #0076be;
+    font-size: 28px;
+    margin-bottom: 25px;
+}
+
+.p39 {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 20px;
+}
+
+.p38 {
+    width: 100%;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
+    display: flex;
+    flex-direction: column;
+}
+
+.p37 {
+    width: 100%;
+    height: 180px;
+}
+
+.p37 img {
+    width: 100%;
+    height: 100%;
+}
+
+.p36 {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.p35 {
+    font-size: 16px;
+    color: #111;
+    margin-bottom: 10px;
+}
+
+.p34 {
+    font-size: 13px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.p33 {
+    font-size: 12px;
+    color: #999;
 }
 @media (max-width: 500px) {
 
@@ -1639,5 +1692,23 @@ gap: 20px;
     .p25 {
         width: 80%;
         padding: 10px 20px;
+    }
+
+     .p41 {
+        padding: 0 12px;
+    }
+
+    .p39 {
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+
+    .p40 {
+        font-size: 22px;
+        text-align: center;
+    }
+
+    .p37 {
+        height: 180px;
     }
 }
