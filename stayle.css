@@ -1253,6 +1253,72 @@ gap: 20px;
 .p70 {
     width: 100%;
 }
+
+.p71 {
+    width: 100%;
+    min-height: 110px;
+    background-image:url("./mmmmm/Rectangle\ 1960.png");
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+.p72 {
+    width: 100%;
+    max-width: 950px;
+    min-height: 70px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 25px;
+}
+
+.p73 {
+    color: white;
+}
+
+.p73 h2 {
+    font-size: 19px;
+    margin-bottom: 10px;
+}
+
+.p73 h2 span {
+    color: #0784c8;
+}
+
+.p73 p {
+    color: #b9c3c5;
+    font-size: 11px;
+}
+
+.p74 {
+    display: flex;
+    align-items: center;
+    gap: 35px;
+}
+
+.p74 p {
+    color: white;
+    font-size: 14px;
+    white-space: nowrap;
+}
+
+.p75 {
+    color: white;
+    font-size: 11px;
+}
+
+.p75 p {
+    color: white;
+    font-size: 11px;
+}
+
+.p75 p:last-child {
+    margin-top: 12px;
+    text-decoration: underline;
+}
 @media (max-width: 500px) {
 
     .n5 {
@@ -1878,5 +1944,32 @@ gap: 20px;
 
     .p69 {
         width: 100%;
+    }
+     .p71 {
+        padding: 25px 15px;
+    }
+
+    .p72 {
+        flex-direction: column;
+        text-align: center;
+        gap: 25px;
+    }
+
+    .p73 h2 {
+        font-size: 20px;
+    }
+
+    .p74 {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 18px;
+    }
+
+    .p74 p {
+        font-size: 13px;
+    }
+
+    .p75 {
+        font-size: 12px;
     }
 }
